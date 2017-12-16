@@ -11,5 +11,6 @@ module.exports = {
     loaders: [
       {test: /.js?$/, exclude: /node_modules/, use: 'babel-loader'}
     ]
-  }
+  },
+  target : "electron"
 }
